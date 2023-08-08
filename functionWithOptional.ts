@@ -29,3 +29,8 @@ function sum(a: number, ...b: number[]): number {
 
 console.log(sum(2, 3, 4, 5, 6, 7));
 console.log(sum(1, 3));
+
+//Arrow Function
+let add=(a:number,b:number) => a+b;
+
+console.log(add(4,5));
