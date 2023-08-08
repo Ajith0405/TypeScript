@@ -1,3 +1,4 @@
+//Single Inheritance
 class car{
     color:string;
     constructor(color:string){
@@ -8,7 +9,7 @@ class car{
 class benz extends car{
     price:number;
     constructor(color:string,price:number){
-        super(color);
+        super(color);  // super keyword helps to call constructor or anything from parent class
         this.price = price;
     }
 
