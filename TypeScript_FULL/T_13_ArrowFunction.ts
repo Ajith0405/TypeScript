@@ -3,14 +3,13 @@ const add = (a: number, b: number): number => {
 };
 console.log(add(15,56));
 
-let holidaySales2 = function (
+let holidaySales2 = (
     product:string, 
     sales:number,
     tax:number,
     discount:number,
     // dept:string - see tsconfig.json
-    ):number
-    {
+    ):number => {
         let price:number = 0
         // let department:string = "Tech" see tsconfig.json
 
